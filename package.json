@@ -18,18 +18,22 @@
     "url": "https://github.com/alaa-lasoued/E.A.S.T/issues"
   },
   "homepage": "https://github.com/alaa-lasoued/E.A.S.T#readme",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "express": "^4.17.1",
-    "mysql": "^2.18.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
-    "webpack": "^5.1.0"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "light-toast": "^0.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-toastify": "^6.0.8",
+    "socket.io": "^2.3.0",
+    "mysql": "^2.18.1"
   }
 }
